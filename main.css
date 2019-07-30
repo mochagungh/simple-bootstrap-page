@@ -1,0 +1,48 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', 'Ubuntu', sans-serif !important;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.container {
+    min-height: 90vh;
+    height: 100%;
+    width: 100%;
+}
+
+.page1 {
+    background: url(austin-distel-EMPZ7yRZoGw-unsplash.jpg) center center no-repeat;
+}
+.page3 {
+    background: url(m-b-m-ZzOa5G8hSPI-unsplash.jpg) center center no-repeat;
+}
+.jumbotron-fluid{
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+}
+
+h1,
+p {
+    color: #fff;
+}
+strong {
+    color: rgb(255, 232, 28);
+}
+h1 {
+    
+}
+.modify {
+    background-color: rgb(9, 9, 122);
+}
